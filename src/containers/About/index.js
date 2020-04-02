@@ -42,6 +42,11 @@ const About = () => {
                   To learn and to improve my professional experiences and other
                   skills particularly of Javascript, backend Nodejs or Golang.
                 </p>
+                <p>
+                  I desire learn new technical,framework and english. Take
+                  advantages of programing skills & experience, I will
+                  contribute to development of your Company.
+                </p>
               </div>
               <div className="home-buttons">
                 <a
