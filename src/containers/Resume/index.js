@@ -7,25 +7,36 @@ const Resume = () => {
       <div className="page-title">
         <h1>Resume</h1>
         <div className="page-subtitle">
-          <h4>Fresher</h4>
+          <h4>Junior</h4>
         </div>
       </div>
       <div className="container">
         <div className="row">
           <div className=" col-xs-12 col-sm-6 ">
-            <div className="block-title">
-              <h2>Education</h2>
+            <div>
+              <div className="block-title">
+                <h2>Education</h2>
+              </div>
+              <div className="timeline-item clearfix">
+                <h5 className="item-period ">2015-2019</h5>
+                <span className="item-company">
+                  Posts And Telecommunications Institute Of Technology (PTIT)
+                </span>
+                <h4 className="item-title">Information Technology</h4>
+                <p>
+                  Learn about Data structures and algorithms, OOP, Restful API,
+                  development application,SQL etc.
+                </p>
+              </div>
             </div>
-            <div className="timeline-item clearfix">
-              <h5 className="item-period ">2015-2019</h5>
-              <span className="item-company">
-                Posts And Telecommunications Institute Of Technology (PTIT)
-              </span>
-              <h4 className="item-title">Information Technology</h4>
-              <p>
-                Learn about Data structures and algorithms, OOP, Restful API,
-                development application,SQL etc.
-              </p>
+            <div>
+              <div className="block-title">
+                <h2>Certification</h2>
+              </div>
+              <div className="timeline-item clearfix">
+                <h5 className="item-period ">2019-2021</h5>
+                <span className="item-company">TOEIC: 810</span>
+              </div>
             </div>
           </div>
           <div className=" col-xs-12 col-sm-6 ">
