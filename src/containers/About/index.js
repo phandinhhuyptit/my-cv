@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.scss";
-import bangdiem from "../../files/bangdiem.pdf";
 import cv from "../../files/cv.pdf";
 import { Modal, ModalBody } from "reactstrap";
 const About = () => {
@@ -62,7 +61,7 @@ const About = () => {
                     setViewPDF(true);
                   }}
                 >
-                  View Transcript
+                  View CV
                 </button>
               </div>
             </div>
@@ -79,7 +78,7 @@ const About = () => {
               <i className="fa fa-desktop" aria-hidden="true"></i>
             </div>
             <div className="ci-text">
-              <h4>Web Design</h4>
+              <h4>Web Developer</h4>
               <p>Freelancer Reactjs and Nodejs 6 months of experience.</p>
               <p>
                 I had one years of practical experience about ReactJS and Nodejs
@@ -101,12 +100,7 @@ const About = () => {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <embed
-            className="pdf-view"
-            src={bangdiem}
-            width="100%"
-            height="500px"
-          />
+          <embed className="pdf-view" src={cv} width="100%" height="500px" />
         </ModalBody>
       </Modal>
     </div>
