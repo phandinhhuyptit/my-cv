@@ -33,15 +33,31 @@ const Resume = () => {
               <h2>Experience</h2>
             </div>
             <div className="timeline-item clearfix">
-              <h5 className="item-period ">MAR 2020 - Now</h5>
+              <h5 className="item-period ">MAR 2020 - Present</h5>
               <span className="item-company">Kompa Group</span>
               <h4 className="item-title">Front-end Developer</h4>
-              <p>
-                - Web application development with Django
-                <a href="https://smartthuanviet.cf/"> smartthuanviet.cf</a>
+              <p
+                style={{
+                  fontWeight: "bold"
+                }}
+              >
+                Responsibilities:{" "}
               </p>
-              <p>- Website management</p>
-              <p>- It help desk</p>
+              <p>
+                - Web application development with Reacrjs and GraphQL
+                <a
+                  className="item-project"
+                  target="_blank"
+                  href="https://iboard.ssi.com.vn/"
+                >
+                  {" "}
+                  stock SSI
+                </a>
+              </p>
+              <p>- Frontend-engineer</p>
+              <p>- Researching GraphQL,Apollo client and server</p>
+              <p>- Researching styled-components</p>
+              <p>- Implement Common components/Utilities on React</p>
             </div>
             <div className="timeline-item clearfix">
               <h5 className="item-period ">MAY 2019 - MAR 2020</h5>
@@ -84,31 +100,52 @@ const Resume = () => {
                 target="_blank"
                 href="https://grabhotel.net/"
               >
-                <span className="dash">-</span> Grahotel web: .
+                <span className="dash">-</span> Grahotel Web
+              </a>
+              <a
+                className="item-project"
+                target="_blank"
+                href="https://admin.grabhotel.net/"
+              >
+                <span className="dash">-</span> Grahotel CMS
+              </a>
+              <a
+                className="item-project"
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.grabhotel"
+              >
+                <span className="dash">-</span> Grahotel App
               </a>
             </div>
-            <div className="timeline-item clearfix">
-              <h5 className="item-period ">OCT 2019- DEC 2019</h5>
-              <span className="item-company">Beesight Soft</span>
-              <h4 className="item-title">Fresher Reactjs</h4>
-              <p>- Co-ordinated with ReactJS in doing projects</p>
-            </div>
           </div>
+
           <div className=" col-xs-12 col-sm-12">
             <div className="block-title">
               <h2>Skills</h2>
             </div>
             <div className="timeline-item clearfix">
-              <p>- Programming language: Javascript ,Python, C++, C#.</p>
+              <p>- Programming language: Javascript,Golang,Typescript.</p>
               <p>
                 - Basic knowledge: Object Oriented Programming (OOP), Structured
                 Query Language (SQL), HTML, CSS, SCSS, Bootstrap, Linux, Git.
               </p>
-              <p>- Framework: ReactJS, Django, Flask.</p>
-              <p>- Platform: Nodejs.</p>
-              <p>- Knowledgedgeable in information security.</p>
-              <p>- Skilled in teamwork.</p>
-              <p>- Dynamic in adopting new technology into working.</p>
+              <p>
+                - Framework: Reactjs (Hooks),Gatsby,Redux (Thunk,Saga), Ant
+                Design ,Nextjs, Boostrap, Apollo GraphQL, Mongoose, Nestjs,
+                Vuejs, jQuery, HTML5, CSS3, SASS, styled-component
+              </p>
+              <p>- Database: SQL Server,MySQL,MongoDB,PostgreSQL</p>
+              <p>- Platform: Nodejs,Webpack,Babel.</p>
+              <p>- API: REST,GraphQL.</p>
+              <p>
+                - System & Networking: Bit bucket,Github,Gitlab,Ubuntu System
+                Docker,Vim,macOS.
+              </p>
+              <p>- Knowledge SOLID, OOP, Design pattern,Scrum.</p>
+              <p>
+                - Teamwork ability to learn or independent , self-motivated.
+              </p>
+              <p>- The ability to learn and acquire new ones.</p>
             </div>
           </div>
         </div>
